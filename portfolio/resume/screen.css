@@ -1,0 +1,101 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,700);
+@import url(http://fonts.googleapis.com/css?family=Pacifico);
+
+body {
+  color: #333;
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+}
+
+#container {
+  background-color: rgba(255,255,255,0.6);
+  margin: 0 auto 0 auto;
+  margin-top: 60px;
+  width: 960px;
+  position: relative;
+  overflow: auto;
+  padding: 2em;
+}
+
+header {
+  position: relative;
+}
+
+header h1 {
+  display: inline;
+}
+
+header h1 a {
+  font-family: 'Pacifico';
+  font-size: 36px;
+  text-decoration: none;
+  color: rgb(235,72,83);
+}
+
+header h1 a:hover {
+  color: rgb(241,98,83);
+}
+
+nav {
+  position: absolute;
+  top: 28px;
+  right: 80px;
+}
+
+nav ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+  padding-left: 1em;
+  border-left: 1px solid #ccc;
+  margin-left: 1em;
+}
+
+nav li:first-child {
+  border: 0;
+}
+
+nav a {
+  display: block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: rgb(241,98,83);
+}
+
+main {
+  overflow: auto;
+}
+
+.column1, .column2 {
+  float: left;
+  width: 360px;
+  margin: 5px;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 1.7em;
+  color: rgb(255,142,72);
+}
+
+h3 {
+  font-size: 1.05em;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  color: rgb(241,98,83);
+}
